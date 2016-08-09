@@ -1,0 +1,5 @@
+{
+  "api": "https://api.getaddress.io",
+  "locate": "/v2/uk",
+  "usage": "/usage"
+}

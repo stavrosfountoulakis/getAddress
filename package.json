@@ -1,0 +1,27 @@
+{
+  "name": "getaddress.io",
+  "version": "0.1.0",
+  "description": "Simple wrapper around the getaddress.io geocoding web service.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -t 95 -v",
+    "coverage": "lab -r html -o coverage.html"
+  },
+  "keywords": [
+    "getaddress",
+    "getaddress.io",
+    "postcode",
+    "geocode"
+  ],
+  "author": "PCS <sweare@pcs-publishing.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "unirest": "^0.4.2"
+  },
+  "devDependencies": {
+    "code": "^2.0.1",
+    "lab": "^7.2.0",
+    "sinon": "^1.17.2"
+  }
+}
